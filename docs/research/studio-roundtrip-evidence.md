@@ -1,6 +1,19 @@
 # Studio round-trip evidence
 
-Evidence for [Verify Studio source and asset round trips](https://github.com/Jazenn/Roblox_KFC_Racer/issues/10), 2026-10-23. Partial results; task remains open.
+Evidence for [Verify Studio source and asset round trips](https://github.com/Jazenn/Roblox_KFC_Racer/issues/10), 2026-10-23. The bounded source/import/persistence/reimport experiment is complete. Historical progress notes below retain what was unknown at each stage; the final result governs current status. This is not production art or game certification.
+
+## Final result
+
+- Rojo CLI/plugin 7.7.1 disk-to-Studio source synchronization and saved/reopened disk-v3 probe: passed.
+- Permanent uploaded meshes/livery persisted in a reopened local scratch file without preview reconstruction: passed.
+- Raw Studio Default import/reimport: preserves geometry/livery but loses untextured material colors. This failure is recorded, not declared fixed in the importer.
+- Source-derived base-color workaround: all 134 meshes match the GLB manifest before saving, after save/reopen, and after the owner's final reimport. Final comparison: same Model and all 134 MeshPart instances, 134 updated mesh IDs, four updated texture IDs, zero added/removed paths, zero color mismatches and zero CollisionFidelity/CanCollide changes. Source SHA-256 and persisted manifest remain intact.
+- Final exterior captures show both livery sides and outside-facing dark glazing: [left](fixtures/studio-roundtrip/images/material-left.png), [right](fixtures/studio-roundtrip/images/material-right.png).
+- Owner confirmed own-account creator and Studio Default preset; sampled uploaded asset creator matches User 2906799966. The UI exposes a containing-folder link rather than a copyable full path. Known canonical/research GLB copies are byte-identical; exact configured filepath remains an explicitly recorded UI limitation.
+
+The material route has a reproducible base-color step with observed persistence and reimport, not complete Blender PBR equivalence. Full roughness/metalness maps, clearcoat representation, final scale relative to the chassis/avatar and production visual acceptance remain decisions/acceptance obligations for [Establish a reproducible Roblox development workflow](https://github.com/Jazenn/Roblox_KFC_Racer/issues/4) and the later first-playable contract. The measured 2.4401 x 2.1269 x 4.9650 stud sample is an import-scale observation, not approval of production size. No finished-game work or quality waiver is implied by completing this prerequisite task.
+
+Cleanup/retention: owned temporary source fixture and scratch model are retained as named evidence, not installed as production runtime. Original cloud-place art/chassis/scenery were preserved. The locally saved mapped copy precedes the final reimport, so the final updated IDs are currently in the open scratch window; mapped-color persistence was independently verified from disk before that reimport. Do not discard unsaved owner work or confuse this retained sample with a production asset. No public experience was published.
 
 ## Authorization and target
 
@@ -62,7 +75,7 @@ The remaining settings evidence has been requested through Explorer → Reimport
 
 The scratch experiment validates one-to-one mesh-name matching before applying any colors, converts linear RGB to sRGB, then checks every RGB channel within 1/255. All 134 comparisons passed. The complete source manifest is also stored on the scratch Model as `WorkflowBaseColorManifest`, enabling a read-only comparison after reopen without relying on session globals. The reproducible procedure and complete check are in `fixtures/studio-roundtrip/material-replay.md`.
 
-Saving the mapped sample is still pending. An automated Ctrl+S attempt did not change the file's length or write time (still 759421 bytes, 16:43:03 local), so no persistence pass is inferred. The owner has been asked to close Configure, save the scratch file and reopen it. Only then can the independent complete color check establish persistence; reimport preservation must also be observed separately.
+The initial automated Ctrl+S attempt did not change the file, so it was not counted. The owner subsequently saved and reopened the mapped scratch copy; the file is now 761666 bytes, last written at 17:11:23 local. The new Studio connection independently passed all 134 source-manifest color comparisons with permanent MeshIds, the exact source hash, the saved reimport identifier, and the BOM-free disk-v3 probe. Tire Color remained approximately (0.1098, 0.1255, 0.1451). This verifies mapped base-color persistence without session globals, reconstruction or a fresh material application. A new pre-reimport baseline records colors, mesh/texture IDs, collisions and instances, and the owner has been asked to reimport once more to check preservation of the mapped colors.
 
 Full PBR remains a distinct limitation, not a reason to call the base-color check failed or to claim polished-material success. Roblox's documented route uses uploaded color/normal/roughness/metalness/emissive maps with SurfaceAppearance; this experiment only maps base color and does not transfer the source's scalar roughness/metalness or clearcoat. The next workflow decision must choose and validate that authoring route before claiming detailed-material fidelity. [PBR textures](https://create.roblox.com/docs/art/modeling/surface-appearance), [SurfaceAppearance API](https://create.roblox.com/docs/reference/engine/classes/SurfaceAppearance).
 
