@@ -1,0 +1,16 @@
+{
+  "name": "WorkflowRoundTrip",
+  "servePlaceIds": [128617506057924],
+  "tree": {
+    "$className": "DataModel",
+    "$ignoreUnknownInstances": true,
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$ignoreUnknownInstances": true,
+      "WorkflowRoundTrip": {
+        "$className": "Folder",
+        "Probe": { "$path": "Probe.lua" }
+      }
+    }
+  }
+}
