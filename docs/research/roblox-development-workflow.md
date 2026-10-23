@@ -91,3 +91,11 @@ Remaining concrete work:
 5. Before runtime dependencies are introduced, select compatible dependency scanning and version/integrity tracking. None is currently validated for a future Luau package choice.
 
 The documentation supports this workflow recommendation. It does not clear those execution and capture prerequisites or establish final performance budgets.
+
+## Durable capture update
+
+The owner approved the initial source snapshot and publication. Original source context is commit 507bb4c6aabee918b07b7f551a8e54cbff58fa89 on main; the subsequent floor-guard CI repair is captured in this branch's parent history. This report is published on research/development-workflow, with no PR or merge intended. Earlier statements about an unborn HEAD and absent remote capture describe the original research session, not the current capture state.
+
+Gitleaks 8.24.2 was subsequently provisioned from its official checksum-verified release. The reviewed initial file snapshot and initial committed history passed redacted scans. The initial Chassis prototype CI run passed. The initial Constraints job failed because the complete first-push diff exceeded Node's default subprocess output buffer; a regression reproduced that error before the buffer fix and now verifies large clean diffs, violations at the end of a large file and invalid-base failure. CI includes that regression. See the linked run results on the tracker for final post-fix status; no unobserved CI pass is claimed here.
+
+Permanent import/reimport/reopen, live Studio synchronization, engine/project measurement, owner baseline selection and performance measurements remain outstanding. Capturing this report does not implement the later damage/recovery agreement or establish a production-ready workflow.
