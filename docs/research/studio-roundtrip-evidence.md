@@ -33,13 +33,21 @@ Read-only GLB inspection confirms distinct baseColorFactor values for Rubber, Gl
 
 ## Remaining observed evidence
 
-- Save the isolated sample locally, reopen it, and check source plus mesh/texture persistence without local reconstruction or an HTTP asset server. This is pending: Studio File-menu automation did not open a usable save dialog. The owner was given the exact local scratch path and requested save/open action.
+- Save/reopen completed: the owner saved `build/workflow-roundtrip-scratch.rbxl` (759421 bytes) and opened it in a separate Studio window. Independent MCP inspection targeted that named window, in Edit mode with PlaceId 0, rather than the original cloud-place window. The BOM-free `disk-v3` probe, 134 MeshParts with zero empty MeshIds, exact sampled mesh/texture IDs above, bounding box, and zero scripts in the imported model all persisted. No reconstruction script or HTTP asset fetch was run to obtain this result. The original place remained open separately.
 - Verify normal importer settings, intended creator/access, correct units/axes, both exterior sides, and material transfer. Initial import settings were not observed in this session.
 - Exercise controlled reimport of the same source and confirm object matching without duplicates or altered collision ownership. Not performed.
 - Record cleanup of owned fixtures after persistence/reimport evidence is captured. Do not delete the approved preview, imported sample or unsaved owner work.
 
-The task cannot close on the successful source update alone. Material fidelity, reopen and reimport remain unverified or failing as stated above; no performance, engine coverage or production-readiness claim follows.
+The task cannot close on the successful source update and reopen alone. Material fidelity and reimport remain unverified or failing as stated above; no performance, engine coverage or production-readiness claim follows.
+
+## Reimport and material diagnostic continuation
+
+The saved model retains `RBX_ReimportId` `0a3c9fd0-5312-419e-a42e-61c5483e982f`. Before reimport, the session recorded an in-memory baseline of mesh count, paths, IDs and CollisionFidelity/CanCollide values and selected only the scratch-copy imported model.
+
+A targeted Studio assertion checks that the imported Tire's RGB channels are below 0.2, consistent with the GLB Rubber baseColorFactor approximately (0.012, 0.015, 0.019). It failed with `Material fidelity FAIL: GLB rubber is dark; imported Tire Color=0.639216, 0.635294, 0.647059`. Repeated inspection returned the same gray value. This isolates a concrete material symptom without modifying the sample.
+
+Hypotheses to distinguish: reimport may restore material transfer; an import setting may control material transfer; or the selected route may require explicit source-derived material mapping. No root cause is established. The automated Alt+Shift+R attempt produced no observable dialog, changed IDs or count; an unchanged sample alone cannot prove reimport ran. The owner was asked to invoke Reimport from the selected model's Explorer menu and report any dialog/error or completion. The saved baseline permits checking duplicate creation and collision-property preservation after a confirmed operation.
 
 ## Checks for this capture
 
-Run from the research worktree: `node scripts/floor-guard.mjs --base HEAD` passed; `git diff --check` passed; `../../.tools/luau-0.743/luau-compile.exe --null docs/research/fixtures/studio-roundtrip/Probe.lua` passed; `../../.tools/gitleaks-8.24.2/gitleaks.exe dir --redact --no-banner docs/research` reported no findings. The source fixture is a static data module, not a gameplay behavior change. Final Studio inspection confirmed the BOM-free `disk-v3` source. Live update and CLI build are observed passes; saved-place persistence and reimport have no pass result.
+Run from the research worktree: `node scripts/floor-guard.mjs --base HEAD` passed; `git diff --check` passed; `../../.tools/luau-0.743/luau-compile.exe --null docs/research/fixtures/studio-roundtrip/Probe.lua` passed; `../../.tools/gitleaks-8.24.2/gitleaks.exe dir --redact --no-banner docs/research` reported no findings. The source fixture is a static data module, not a gameplay behavior change. Final Studio inspection confirmed the BOM-free `disk-v3` source. Live update, CLI build and saved-place source/asset persistence are observed passes; material fidelity fails and reimport has no confirmed result yet.
