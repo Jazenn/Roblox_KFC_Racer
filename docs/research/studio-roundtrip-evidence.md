@@ -38,7 +38,7 @@ Read-only GLB inspection confirms distinct baseColorFactor values for Rubber, Gl
 - The owner invoked Reimport on the selected scratch model. Subsequent inspection confirmed the same Model instance and reimport identifier, 134 meshes before/after, zero added or removed mesh paths, zero CollisionFidelity/CanCollide changes, and all 134 mesh IDs updated. The isolated folder still contains one imported model. Bounding dimensions remain approximately 2.4401 x 2.1269 x 4.9650 studs. This is an observed same-source reimport pass, not merely an unchanged sample. Full post-reimport IDs/properties are captured in `fixtures/studio-roundtrip/reimport-observation.json`.
 - Record cleanup of owned fixtures after persistence/reimport evidence is captured. Do not delete the approved preview, imported sample or unsaved owner work.
 
-The task cannot close on the successful source update and reopen alone. Material fidelity and reimport remain unverified or failing as stated above; no performance, engine coverage or production-readiness claim follows.
+The task cannot close on the successful source update, reopen and reimport alone. Material fidelity remains failing or unverified as stated above; no performance, engine coverage or production-readiness claim follows.
 
 ## Reimport and material diagnostic continuation
 
@@ -55,5 +55,17 @@ Confirmed reimport did not restore the untextured material colors. A bounded scr
 The remaining settings evidence has been requested through Explorer → Reimport → Configure: source filepath, upload creator/target and import preset, without changing them. A missing observed setting must not be inferred from the successful reimport. Task remains open for that capture and a clearly specified material-preserving route; no quality requirement is waived.
 
 ## Checks for this capture
+
+### Reproducible base-color continuation
+
+`fixtures/studio-roundtrip/base-color-manifest.json` captures all 134 GLB mesh/material names and linear base colors, with source SHA-256 `3fb6ebab6d60ec881cbb4b702c3705cf41e37b2f7c77dd1ec8b8fa4f81a6ee9c`. The canonical source and all three research/review worktree copies were hash-checked and are identical. This establishes the content identity of the known local candidates without inventing an exact configured path.
+
+The scratch experiment validates one-to-one mesh-name matching before applying any colors, converts linear RGB to sRGB, then checks every RGB channel within 1/255. All 134 comparisons passed. The complete source manifest is also stored on the scratch Model as `WorkflowBaseColorManifest`, enabling a read-only comparison after reopen without relying on session globals. The reproducible procedure and complete check are in `fixtures/studio-roundtrip/material-replay.md`.
+
+Saving the mapped sample is still pending. An automated Ctrl+S attempt did not change the file's length or write time (still 759421 bytes, 16:43:03 local), so no persistence pass is inferred. The owner has been asked to close Configure, save the scratch file and reopen it. Only then can the independent complete color check establish persistence; reimport preservation must also be observed separately.
+
+Full PBR remains a distinct limitation, not a reason to call the base-color check failed or to claim polished-material success. Roblox's documented route uses uploaded color/normal/roughness/metalness/emissive maps with SurfaceAppearance; this experiment only maps base color and does not transfer the source's scalar roughness/metalness or clearcoat. The next workflow decision must choose and validate that authoring route before claiming detailed-material fidelity. [PBR textures](https://create.roblox.com/docs/art/modeling/surface-appearance), [SurfaceAppearance API](https://create.roblox.com/docs/reference/engine/classes/SurfaceAppearance).
+
+Owner settings report: Creator is the owner's account and import preset is Studio Default. The supplied path was `C:\Users\griff\Projects\Roblox Games\Roblox_KFC_Racer\build`, a directory rather than a source filename. A read-only search found reference_van_v3.glb copies under the workflow, performance and initial-snapshot worktrees, but no GLB directly in build. The exact configured source file still needs confirmation; do not silently infer which copy was used.
 
 Run from the research worktree: `node scripts/floor-guard.mjs --base HEAD` passed; `git diff --check` passed; `../../.tools/luau-0.743/luau-compile.exe --null docs/research/fixtures/studio-roundtrip/Probe.lua` passed; `../../.tools/gitleaks-8.24.2/gitleaks.exe dir --redact --no-banner docs/research` reported no findings. The source fixture is a static data module, not a gameplay behavior change. Final Studio inspection confirmed the BOM-free `disk-v3` source. Live update, CLI build and saved-place source/asset persistence are observed passes; same-source reimport passes the observed matching/collision checks. Raw imported material fidelity fails; the scratch base-color mapping passes its targeted check, with full PBR fidelity unverified.
