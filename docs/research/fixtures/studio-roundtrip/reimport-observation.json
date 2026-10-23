@@ -1,0 +1,1078 @@
+{
+  "sameModel": true,
+  "count": 134,
+  "parts": {
+    "1": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Cab seat.001.Cube.049",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://132554161526265",
+      "texture": ""
+    },
+    "2": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Amber indicator.Cube.021",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://136754081887128",
+      "texture": ""
+    },
+    "3": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Amber indicator.001.Cube.036",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://136754081887128",
+      "texture": ""
+    },
+    "4": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.008.Cylinder.028",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://84877681491330",
+      "texture": ""
+    },
+    "5": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Headlamp optics.002.Cube.024",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://89642853496050",
+      "texture": ""
+    },
+    "6": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rear door.001.Cube.006",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://131726759246992",
+      "texture": ""
+    },
+    "7": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Body_Left_Node.Body_Left",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://73816781656912",
+      "texture": "rbxassetid://119806827037540"
+    },
+    "8": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Body_Right_Node.Body_Right",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://75293839471767",
+      "texture": "rbxassetid://98987045748752"
+    },
+    "9": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.009.Cylinder.029",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://84877681491330",
+      "texture": ""
+    },
+    "10": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Cab door seam_Node.Cab door seam",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://132972403269096",
+      "texture": ""
+    },
+    "11": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Cab door seam.001_Node.Cab door seam.001",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://134888836697205",
+      "texture": ""
+    },
+    "12": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Cab seat.Cube.048",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://103040622944125",
+      "texture": ""
+    },
+    "13": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.007.Cylinder.027",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://84877681491330",
+      "texture": ""
+    },
+    "14": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Cab side glass_Node.Cab side glass",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://104512646172138",
+      "texture": ""
+    },
+    "15": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Cab side glass.001_Node.Cab side glass.001",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://129576655857241",
+      "texture": ""
+    },
+    "16": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Cargo floor.Cube.009",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://77320927635979",
+      "texture": ""
+    },
+    "17": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Dashboard.Cube.050",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://108474562278879",
+      "texture": ""
+    },
+    "18": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.011.Cylinder.041",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://85525805705297",
+      "texture": ""
+    },
+    "19": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Front bumper.Cube.011",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://139967010152611",
+      "texture": ""
+    },
+    "20": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.017.Cylinder.033",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://138917753517478",
+      "texture": ""
+    },
+    "21": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Front door handle.Cube.014",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://73766216632554",
+      "texture": ""
+    },
+    "22": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Front door handle.001.Cube.029",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://105018093275634",
+      "texture": ""
+    },
+    "23": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.014.Cylinder.044",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://85525805705297",
+      "texture": ""
+    },
+    "24": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Front plate.Cube.013",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://76622512728165",
+      "texture": ""
+    },
+    "25": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lower intake.Cube.012",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://95494099393666",
+      "texture": ""
+    },
+    "26": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Front pressed metal_Node.Front pressed metal",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://109297068341873",
+      "texture": "rbxassetid://139907666378346"
+    },
+    "27": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.016.Cylinder.056",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://85525805705297",
+      "texture": ""
+    },
+    "28": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Grille.Cube.044",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://106768839292836",
+      "texture": ""
+    },
+    "29": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Grille slat.Cube.045",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://90639711705415",
+      "texture": ""
+    },
+    "30": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.018.Cylinder.058",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://85525805705297",
+      "texture": ""
+    },
+    "31": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Grille slat.001.Cube.046",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://76458839759212",
+      "texture": ""
+    },
+    "32": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.003.Cylinder.013",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://84877681491330",
+      "texture": ""
+    },
+    "33": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Grille slat.002.Cube.047",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://106740879690172",
+      "texture": ""
+    },
+    "34": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Mirror arm.Cube.016",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://113189771582490",
+      "texture": ""
+    },
+    "35": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Headlamp lens.Cube.020",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://104411849086269",
+      "texture": ""
+    },
+    "36": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Headlamp lens.001.Cube.035",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://104411849086269",
+      "texture": ""
+    },
+    "37": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.White steel wheel.001.Cylinder.015",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://126609692972434",
+      "texture": ""
+    },
+    "38": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.006.Cylinder.026",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://84877681491330",
+      "texture": ""
+    },
+    "39": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Headlamp optics.Cube.022",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://106746631355349",
+      "texture": ""
+    },
+    "40": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Headlamp optics.001.Cube.023",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://119390470968689",
+      "texture": ""
+    },
+    "41": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Headlamp optics.003.Cube.025",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://118250318881535",
+      "texture": ""
+    },
+    "42": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.010.Cylinder.040",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://85525805705297",
+      "texture": ""
+    },
+    "43": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Headlamp optics.004.Cube.026",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://120761239028252",
+      "texture": ""
+    },
+    "44": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Headlamp optics.005.Cube.027",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://132177626060003",
+      "texture": ""
+    },
+    "45": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.012.Cylinder.042",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://85525805705297",
+      "texture": ""
+    },
+    "46": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.001.Cylinder.003",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://138917753517478",
+      "texture": ""
+    },
+    "47": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Headlamp optics.006.Cube.028",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://77678726672542",
+      "texture": ""
+    },
+    "48": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Headlamp optics.007.Cube.037",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://119390470968689",
+      "texture": ""
+    },
+    "49": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Wheel arch lip.001_Node.Wheel arch lip.001",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://88754352202709",
+      "texture": ""
+    },
+    "50": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Headlamp optics.008.Cube.038",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://106746631355349",
+      "texture": ""
+    },
+    "51": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Headlamp optics.009.Cube.039",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://75482888801807",
+      "texture": ""
+    },
+    "52": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Headlamp optics.010.Cube.040",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://77678726672542",
+      "texture": ""
+    },
+    "53": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.017.Cylinder.057",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://85525805705297",
+      "texture": ""
+    },
+    "54": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.029.Cylinder.052",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://70452118540104",
+      "texture": ""
+    },
+    "55": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Headlamp optics.011.Cube.041",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://121545600409375",
+      "texture": ""
+    },
+    "56": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Headlamp optics.012.Cube.042",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://89992228455611",
+      "texture": ""
+    },
+    "57": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Headlamp optics.013.Cube.043",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://118250318881535",
+      "texture": ""
+    },
+    "58": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lamp black housing.Cube.019",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://140293331552470",
+      "texture": ""
+    },
+    "59": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lamp black housing.001.Cube.034",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://111659412190690",
+      "texture": ""
+    },
+    "60": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.Cylinder.010",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://84877681491330",
+      "texture": ""
+    },
+    "61": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.001.Cylinder.011",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://84877681491330",
+      "texture": ""
+    },
+    "62": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.002.Cylinder.012",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://84877681491330",
+      "texture": ""
+    },
+    "63": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.004.Cylinder.014",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://84877681491330",
+      "texture": ""
+    },
+    "64": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.White steel wheel.Cylinder",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://126609692972434",
+      "texture": ""
+    },
+    "65": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.005.Cylinder.025",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://84877681491330",
+      "texture": ""
+    },
+    "66": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.013.Cylinder.043",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://85525805705297",
+      "texture": ""
+    },
+    "67": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.015.Cylinder.055",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://85525805705297",
+      "texture": ""
+    },
+    "68": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Lug nut.019.Cylinder.059",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://85525805705297",
+      "texture": ""
+    },
+    "69": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Sliding door handle.Cube.015",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://111435828659073",
+      "texture": ""
+    },
+    "70": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Mirror arm.001.Cube.031",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://88516279054469",
+      "texture": ""
+    },
+    "71": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Mirror glass.Cube.018",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://109920188107653",
+      "texture": ""
+    },
+    "72": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Mirror glass.001.Cube.033",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://131176561484795",
+      "texture": ""
+    },
+    "73": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Mirror housing.Cube.017",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://121479897513098",
+      "texture": ""
+    },
+    "74": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Mirror housing.001.Cube.032",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://71478680083712",
+      "texture": ""
+    },
+    "75": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rear bumper.Cube.010",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://75746813738703",
+      "texture": ""
+    },
+    "76": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Tire.002_Node.Tire.002",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://78526431833064",
+      "texture": ""
+    },
+    "77": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rear corner closure.Cube.002",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://80368661234400",
+      "texture": ""
+    },
+    "78": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rear door.Cube.003",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://100375956428390",
+      "texture": ""
+    },
+    "79": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rear door handle.Cube.004",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://86891611255623",
+      "texture": ""
+    },
+    "80": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rear door handle.001.Cube.007",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://128160335958099",
+      "texture": ""
+    },
+    "81": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rear lamp.Cube.005",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://113413943910157",
+      "texture": ""
+    },
+    "82": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rear lamp.001.Cube.008",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://113413943910157",
+      "texture": ""
+    },
+    "83": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.Cylinder.002",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://97273950740614",
+      "texture": ""
+    },
+    "84": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.002.Cylinder.004",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://138588859815534",
+      "texture": ""
+    },
+    "85": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.003.Cylinder.005",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://138917753517478",
+      "texture": ""
+    },
+    "86": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.004.Cylinder.006",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://97273950740614",
+      "texture": ""
+    },
+    "87": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.005.Cylinder.007",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://70452118540104",
+      "texture": ""
+    },
+    "88": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.006.Cylinder.008",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://103060023662179",
+      "texture": ""
+    },
+    "89": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.007.Cylinder.009",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://70452118540104",
+      "texture": ""
+    },
+    "90": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.008.Cylinder.017",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://97273950740614",
+      "texture": ""
+    },
+    "91": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.009.Cylinder.018",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://138917753517478",
+      "texture": ""
+    },
+    "92": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.010.Cylinder.019",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://138588859815534",
+      "texture": ""
+    },
+    "93": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.011.Cylinder.020",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://138917753517478",
+      "texture": ""
+    },
+    "94": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.012.Cylinder.021",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://97273950740614",
+      "texture": ""
+    },
+    "95": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.013.Cylinder.022",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://70452118540104",
+      "texture": ""
+    },
+    "96": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.014.Cylinder.023",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://103060023662179",
+      "texture": ""
+    },
+    "97": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.015.Cylinder.024",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://70452118540104",
+      "texture": ""
+    },
+    "98": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.016.Cylinder.032",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://97273950740614",
+      "texture": ""
+    },
+    "99": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.018.Cylinder.034",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://138588859815534",
+      "texture": ""
+    },
+    "100": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.019.Cylinder.035",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://138917753517478",
+      "texture": ""
+    },
+    "101": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.020.Cylinder.036",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://97273950740614",
+      "texture": ""
+    },
+    "102": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.021.Cylinder.037",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://70452118540104",
+      "texture": ""
+    },
+    "103": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.022.Cylinder.038",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://103060023662179",
+      "texture": ""
+    },
+    "104": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.023.Cylinder.039",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://70452118540104",
+      "texture": ""
+    },
+    "105": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.024.Cylinder.047",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://97273950740614",
+      "texture": ""
+    },
+    "106": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.025.Cylinder.048",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://138917753517478",
+      "texture": ""
+    },
+    "107": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.026.Cylinder.049",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://138588859815534",
+      "texture": ""
+    },
+    "108": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.027.Cylinder.050",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://138917753517478",
+      "texture": ""
+    },
+    "109": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.028.Cylinder.051",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://97273950740614",
+      "texture": ""
+    },
+    "110": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.030.Cylinder.053",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://103060023662179",
+      "texture": ""
+    },
+    "111": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rim ventilation.031.Cylinder.054",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://70452118540104",
+      "texture": ""
+    },
+    "112": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Rounded roof.Cube.001",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://93893729787124",
+      "texture": "rbxassetid://111015442602889"
+    },
+    "113": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Sliding door handle.001.Cube.030",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://99499833290272",
+      "texture": ""
+    },
+    "114": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Sliding door seam_Node.Sliding door seam",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://127178123896577",
+      "texture": ""
+    },
+    "115": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Sliding door seam.001_Node.Sliding door seam.001",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://102300227096286",
+      "texture": ""
+    },
+    "116": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Tire_Node.Tire",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://123219716654236",
+      "texture": ""
+    },
+    "117": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Tire.001_Node.Tire.001",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://83746791174415",
+      "texture": ""
+    },
+    "118": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Tire.003_Node.Tire.003",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://77221763901654",
+      "texture": ""
+    },
+    "119": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Wheel arch lip_Node.Wheel arch lip",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://106662081515376",
+      "texture": ""
+    },
+    "120": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Wheel arch lip.002_Node.Wheel arch lip.002",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://138842229613095",
+      "texture": ""
+    },
+    "121": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Wheel arch lip.003_Node.Wheel arch lip.003",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://77878002826369",
+      "texture": ""
+    },
+    "122": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Wheel center.Cylinder.001",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://79346042676144",
+      "texture": ""
+    },
+    "123": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Wheel center.001.Cylinder.016",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://79346042676144",
+      "texture": ""
+    },
+    "124": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Wheel center.002.Cylinder.031",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://82826173162135",
+      "texture": ""
+    },
+    "125": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Wheel center.003.Cylinder.046",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://82826173162135",
+      "texture": ""
+    },
+    "126": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.White steel wheel.002.Cylinder.030",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://126609692972434",
+      "texture": ""
+    },
+    "127": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.White steel wheel.003.Cylinder.045",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://126609692972434",
+      "texture": ""
+    },
+    "128": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Window rubber seal_Node.Window rubber seal",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://92177493020193",
+      "texture": ""
+    },
+    "129": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Window rubber seal.001_Node.Window rubber seal.001",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://71663952839343",
+      "texture": ""
+    },
+    "130": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Windshield_Node.Windshield",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://94272691011906",
+      "texture": ""
+    },
+    "131": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Windshield central divider_Node.Windshield central divider",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://108024387101111",
+      "texture": ""
+    },
+    "132": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Windshield seal_Node.Windshield seal",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://82836885074249",
+      "texture": ""
+    },
+    "133": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Wiper_Node.Wiper",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://94969199951960",
+      "texture": ""
+    },
+    "134": {
+      "path": "Workspace.WorkflowRoundTrip.KFC_Reference_Van_v3.Wiper.001_Node.Wiper.001",
+      "canCollide": true,
+      "color": "0.639216, 0.635294, 0.647059",
+      "collision": "Enum.CollisionFidelity.Default",
+      "mesh": "rbxassetid://73855169277491",
+      "texture": ""
+    }
+  }
+}
