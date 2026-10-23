@@ -1,0 +1,13 @@
+{
+  "name": "VisualDirectionPrototype",
+  "tree": {
+    "$className": "DataModel",
+    "ServerStorage": {
+      "VisualDirectionPrototypeScene": { "$path": "src/Scene.lua" },
+      "VisualDirectionKombi": { "$path": "src/Kombi.lua" },
+      "VisualDirectionReferenceVan": { "$path": "src/ReferenceVan.lua" },
+      "ReferenceVanMeshData": { "$path": "blender/export/meshdata" },
+      "KombiReviewSource": { "$path": "assets/KombiSource.rbxm" }
+    }
+  }
+}

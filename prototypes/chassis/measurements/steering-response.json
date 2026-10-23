@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-21",
+  "scope": "Solo throwaway chassis; input latencies measure actuator targets, not rendered motion.",
+  "baseline": {
+    "speedBefore": 68.06464385986328,
+    "up": 0.9991828799247742,
+    "angles": [
+      {
+        "target": -12.313111305236816,
+        "actual": -3.755622148513794
+      },
+      {
+        "target": -12.313111305236816,
+        "actual": -43.50472640991211
+      }
+    ],
+    "headingChange": 49.41614810536534,
+    "speedAfter": 74.68445587158203
+  },
+  "keyboardResponseSeconds": {
+    "D": 0.0004248999757692218,
+    "W": 0.0008151000074576586,
+    "S": 0.0005779999773949385
+  },
+  "hardTurn": {
+    "speedBefore": 77.89078521728516,
+    "speedAfter150ms": 81.9183578491211,
+    "minUp": -0.33521294593811035,
+    "wreckObserved": true
+  },
+  "airborne": {
+    "horizontalSpeed": 56.78380584716797,
+    "height": 14.71143627166748,
+    "loadTransferTorque": 0
+  },
+  "ownerVerdict": "Pending new handling feedback"
+}

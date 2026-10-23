@@ -1,0 +1,71 @@
+name: Chassis prototype
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  logic-and-syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install official Luau CLI 0.743
+        shell: bash
+        run: |
+          mkdir -p .tools/luau
+          curl --fail --location --retry 3 https://github.com/luau-lang/luau/releases/download/0.743/luau-ubuntu.zip -o .tools/luau.zip
+          unzip .tools/luau.zip -d .tools/luau
+          chmod +x .tools/luau/luau .tools/luau/luau-compile
+      - name: Compile every prototype script
+        shell: bash
+        run: |
+          for source in prototypes/chassis/src/*.lua prototypes/chassis/tests/*.lua prototypes/visual/src/*.lua prototypes/visual/tests/*.lua; do
+            .tools/luau/luau-compile --null "$source"
+          done
+      - name: Test control rules and measure line coverage
+        run: |
+          .tools/luau/luau --coverage prototypes/chassis/tests/drive.test.lua
+          node scripts/chassis-coverage.mjs
+      - name: Check serialized visual asset with Lune 0.11.0
+        shell: bash
+        run: |
+          mkdir -p .tools/lune
+          curl --fail --location --retry 3 https://github.com/lune-org/lune/releases/download/v0.11.0/lune-0.11.0-linux-x86_64.zip -o .tools/lune.zip
+          echo '5a0ea32c3e13e5e3b1dc415c2056bcfe44258b3a811dcd473c50e3b437d10f72  .tools/lune.zip' | sha256sum --check
+          unzip .tools/lune.zip -d .tools/lune
+          chmod +x .tools/lune/lune
+          .tools/lune/lune run prototypes/visual/tests/asset.test.lua
+      - name: Check reference mesh normals, UVs and local data chunks
+        run: python3 prototypes/visual/tests/reference_mesh.test.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chassis-logic-coverage
+          path: |
+            coverage.out
+            coverage-summary.json
+
+  source-security:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install security scanner
+        run: python -m pip install semgrep==1.182.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify security rules against positive and negative fixtures
+        run: |
+          mkdir -p build
+          semgrep scan --config security/chassis.yml --strict --metrics off --json security/chassis.lua > build/security-fixture.json
+          node scripts/chassis-security-fixtures.mjs
+      - name: Scan actual Lua-subset Roblox source and fail on parser errors
+        run: semgrep scan --config security/chassis.yml --error --strict --metrics off prototypes/chassis/src prototypes/visual/src

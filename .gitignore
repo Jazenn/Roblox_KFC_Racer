@@ -1,0 +1,6 @@
+.tools/
+build/
+coverage.out
+coverage-summary.json
+__pycache__/
+prototypes/visual/blender/export/*.blend1

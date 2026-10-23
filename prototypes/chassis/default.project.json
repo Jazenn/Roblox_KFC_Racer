@@ -1,0 +1,25 @@
+{
+  "name": "ChassisPrototype",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "ChassisPrototype": {
+        "$className": "Folder",
+        "DriveModel": { "$path": "src/DriveModel.lua" },
+        "Actuators": { "$path": "src/Actuators.lua" }
+      }
+    },
+    "ServerScriptService": {
+      "ChassisPrototype": {
+        "$className": "Folder",
+        "Build": { "$path": "src/Build.lua" },
+        "Server": { "$path": "src/Server.server.lua" }
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "ChassisPrototypeClient": { "$path": "src/Client.client.lua" }
+      }
+    }
+  }
+}

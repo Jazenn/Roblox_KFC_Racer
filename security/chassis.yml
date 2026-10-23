@@ -1,0 +1,26 @@
+rules:
+  - id: roblox-dynamic-code-execution
+    languages: [lua]
+    severity: ERROR
+    message: Dynamic code execution is forbidden in the chassis prototype.
+    pattern-either:
+      - pattern: loadstring(...)
+      - pattern: load(...)
+  - id: roblox-numeric-module-require
+    languages: [lua]
+    severity: ERROR
+    message: Require only reviewed repository ModuleScripts, never remote numeric assets.
+    patterns:
+      - pattern: require($ASSET)
+      - metavariable-regex:
+          metavariable: $ASSET
+          regex: '^[0-9]+$'
+  - id: roblox-runtime-asset-loading
+    languages: [lua]
+    severity: ERROR
+    message: Runtime asset loading is forbidden; keep prototype inputs local and reviewed.
+    pattern-either:
+      - pattern: $SERVICE:LoadAsset(...)
+      - pattern: $SERVICE:LoadAssetVersion(...)
+      - pattern: $SERVICE:GetObjects(...)
+      - pattern: $SERVICE:HttpGet(...)
