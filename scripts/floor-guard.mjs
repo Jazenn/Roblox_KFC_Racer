@@ -12,7 +12,9 @@ const base = (() => {
 // `git diff --no-index` exits 1 whenever the two sides differ, which is the normal case for a
 // new file, so that output is kept. Any other failure is null, and null never reads as clean.
 const git = (args, { diffExit = false } = {}) => {
-  try { return execFileSync('git', args, { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }); }
+  // Initial asset captures can exceed Node's default 1 MiB output buffer.
+  // Retain a bounded buffer and fail closed if that limit is exceeded.
+  try { return execFileSync('git', args, { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024, stdio: ['ignore', 'pipe', 'pipe'] }); }
   catch (e) { return diffExit && e.status === 1 && typeof e.stdout === 'string' ? e.stdout : null; }
 };
 const bail = (msg) => { console.error('floor-guard: ' + msg); process.exit(2); };

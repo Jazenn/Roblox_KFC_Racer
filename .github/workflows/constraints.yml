@@ -18,6 +18,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Verify floor guard on large initial diffs
+        run: node --test scripts/floor-guard.test.mjs
       - name: Check floor against the change base
         env:
           PR_BASE: ${{ github.event.pull_request.base.sha }}
